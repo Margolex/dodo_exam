@@ -1,0 +1,108 @@
+.card {
+  background-color: white;
+  display: block;
+  max-width: 780px;
+  height: 340px;
+  padding: 40px;
+}
+
+.order {
+  color: #73798c;
+  margin-bottom: 5px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid;
+  border-bottom-color: #e2e2e9;
+  border-bottom-width: 4px;
+}
+
+.info__order_done {
+  font-size: 36px;
+  margin-bottom: 31px;
+}
+
+.info__order_time {
+  font-size: 36px;
+}
+
+.address {
+  margin: 9px 0 70px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button_first {
+  background-color: #fff0e6;
+  color: #d15700;
+  border-radius: 1000px;
+  border: none;
+  padding: 13px 19px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.button_second {
+  background-color: #f96900;
+  color: white;
+  border-radius: 1000px;
+  border: none;
+  padding: 13px 27px;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+@media (max-width: 540px) {
+  .card {
+    max-width: 780px;
+    min-height: 377px;
+    padding: 16px;
+  }
+
+  .order {
+    font-size: 12px;
+    margin-bottom: 4px;
+  }
+
+  .info {
+    border-bottom: none;
+  }
+
+  .info__order_done {
+    font-size: 24px;
+    margin-bottom: 12px;
+  }
+
+  .info__order_time {
+    display: none;
+  }
+  .address {
+    display: flex;
+    flex-direction: column;
+    padding: 18px;
+    background-color: #f3f3f7;
+    margin-bottom: 70px;
+    margin-top: 0;
+    border-radius: 10px;
+  }
+
+  .address_home {
+    font-weight: 400;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .button_first {
+    margin-bottom: 10px;
+  }
+}
