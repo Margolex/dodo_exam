@@ -19,6 +19,7 @@
   border-bottom: solid;
   border-bottom-color: #e2e2e9;
   border-bottom-width: 4px;
+  border-radius: 2px;
 }
 
 .info__order_done {
@@ -53,6 +54,15 @@
   font-weight: 600;
   font-size: 16px;
 }
+.button_first:hover {
+  background-color: rgb(255, 210, 179);
+  cursor: pointer;
+}
+
+.button_first:active {
+  background-color: rgb(255, 240, 230);
+  color: rgb(255, 210, 179);
+}
 
 .button_second {
   background-color: #f96900;
@@ -63,6 +73,15 @@
   font-family: "Nunito", sans-serif;
   font-weight: 600;
   font-size: 16px;
+}
+
+.button_second:hover {
+  background-color: rgb(232, 97, 0);
+  cursor: pointer;
+}
+
+.button_second:active {
+  color: rgb(255, 165, 102);
 }
 
 @media (max-width: 540px) {
@@ -101,6 +120,7 @@
 
   .address_home {
     font-weight: 400;
+    margin-top: 4px;
   }
 
   .buttons {
