@@ -34,6 +34,10 @@
   margin: 9px 0 70px;
 }
 
+.address_home {
+  font-weight: 400;
+}
+
 .buttons {
   display: flex;
   justify-content: space-between;
